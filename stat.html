@@ -87,11 +87,20 @@
     </div>
   </header><!-- End Header -->
   <form action="status.php" method="post">
-    <!-- Your form inputs here -->
-    <button type="submit" name="status" value="open">Open</button>
-    <button type="submit" name="status" value="closed">Closed</button>
-    <button type="submit" name="status" value="not-yet-made">Decision not yet made</button>
-  </form>
+    <label for="status">Select Status:</label>
+    <select name="status" id="status">
+        <option value="open1">Open 8-10</option>
+        <option value="open2">Open 7-9</option>
+        <option value="closed">Closed</option>
+        <option value="not-yet-made">Decision not yet made</option>
+        <option value="CM">Custom Message</option>
+    </select>
+    
+    <label for="custom_message">Custom Message:</label>
+    <textarea name="custom_message" id="custom_message" placeholder="Enter custom message"></textarea>
+    
+    <button type="submit" name="submit_button" value="submit">Submit</button>
+</form>
 
   
   

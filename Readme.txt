@@ -1,2 +1,6 @@
-Observatory Site pages and Scripts and PHP files
-The usernames and passwords have been removed from the public files they will need to be filled in
+Thanks for downloading this template!
+
+Template Name: Moderna
+Template URL: https://bootstrapmade.com/free-bootstrap-template-corporate-moderna/
+Author: BootstrapMade.com
+License: https://bootstrapmade.com/license/
